@@ -1,4 +1,19 @@
 /* eslint-disable max-len */
+import peaActivism from '../lib/assets/pea_activism.png';
+import peaArtAndCulture from '../lib/assets/pea_art-and-culture.png';
+import peaCommunity from '../lib/assets/pea_community.png';
+import peaFood from '../lib/assets/pea_food.png';
+import peaGaming from '../lib/assets/pea_gaming.png';
+import peaHobbie from '../lib/assets/pea_hobbie.png';
+import peaLearning from '../lib/assets/pea_learning.png';
+import peaMovie from '../lib/assets/pea_movie.png';
+import peaMusic from '../lib/assets/pea_music.png';
+import peaNetworking from '../lib/assets/pea_networking.png';
+import peaOutdoor from '../lib/assets/pea_outdoor.png';
+import peaSpirituality from '../lib/assets/pea_spirituality.png';
+import peaSport from '../lib/assets/pea_sport.png';
+import peaVolunteering from '../lib/assets/pea_volunteering.png';
+
 export const AVATAR =
   'https://i.pinimg.com/originals/0a/dd/87/0add874e1ea0676c4365b2dd7ddd32e3.jpg';
 export const PEOPLE = [
@@ -103,4 +118,31 @@ export const peapodCardProps = {
     ],
     more: 4,
   },
+};
+
+export const peapodEvent = {
+  title: '',
+  categories: [
+    { image: peaActivism, label: 'Activism', checked: true },
+    { image: peaArtAndCulture, label: 'Art & Culture', checked: false },
+    { image: peaCommunity, label: 'Community', checked: true },
+    { image: peaFood, label: 'Food', checked: true },
+    { image: peaGaming, label: 'Gaming', checked: false },
+    { image: peaHobbie, label: 'Hobbie', checked: false },
+    { image: peaLearning, label: 'Learning', checked: true },
+    { image: peaMovie, label: 'Movie', checked: true },
+    { image: peaMusic, label: 'Music', checked: false },
+    { image: peaNetworking, label: 'Networking', checked: true },
+    { image: peaOutdoor, label: 'Outdoor', checked: true },
+    { image: peaSpirituality, label: 'Spirituality', checked: false },
+    { image: peaSport, label: 'Sport', checked: true },
+    { image: peaVolunteering, label: 'Volunteering', checked: false },
+  ],
+  description: '',
+  hashtags: '',
+  date: '',
+  time: '',
+  privateEvent: false,
+  invitingGuests: '',
+  price: 30,
 };
